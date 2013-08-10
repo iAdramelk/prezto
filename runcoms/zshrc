@@ -38,6 +38,10 @@ alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/
 
 alias chrome='open /Applications/Google\ Chrome.app --args --disable-web-security'
 
-. ~/.nvm/nvm.sh
-
 alias server='python -m SimpleHTTPServer'
+
+alias vimrc='vim ~/.vimrc'
+
+bl() { mkdir "$*"; touch "$*/$*.styl" }
+
+. ~/.nvm/nvm.sh
